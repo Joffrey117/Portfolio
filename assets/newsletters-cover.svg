@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Newsletter visual">
+  <rect width="1600" height="1000" fill="#0f6b5d"/>
+  <rect x="170" y="125" width="1260" height="750" rx="40" fill="#f8f4ea"/>
+  <rect x="260" y="215" width="1080" height="130" rx="24" fill="#315f72"/>
+  <rect x="260" y="405" width="460" height="300" rx="24" fill="#d66f55"/>
+  <rect x="770" y="405" width="570" height="38" rx="19" fill="#18332f"/>
+  <rect x="770" y="485" width="480" height="26" rx="13" fill="#d9d0c1"/>
+  <rect x="770" y="545" width="520" height="26" rx="13" fill="#d9d0c1"/>
+  <rect x="770" y="635" width="250" height="60" rx="30" fill="#0f6b5d"/>
+  <text x="260" y="800" fill="#18332f" font-family="Arial, sans-serif" font-size="58" font-weight="800">NEWSLETTERS</text>
+</svg>

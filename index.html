@@ -1,0 +1,1001 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Joffrey Achard : marketing digital, communication, projets, parcours, CV et contact."
+    />
+    <title>Joffrey Achard | Portfolio</title>
+    <link rel="stylesheet" href="styles-v7.css?v=34" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+        <span class="brand-mark" data-field="initials">JA</span>
+        <span data-field="name">Joffrey Achard</span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#projets" data-label="navProjects">Projects</a>
+        <a href="#cv" data-label="navCv">CV</a>
+        <a href="#contact" data-label="navContact">Contact</a>
+        <button class="language-toggle" type="button" data-language-toggle>FR</button>
+        <a class="admin-link" href="admin.html" data-label="adminLabel">Admin</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="accueil" class="hero">
+        <div class="hero-copy">
+          <div class="hero-left">
+            <p class="eyebrow" data-field="eyebrow">Bienvenue sur mon portfolio</p>
+            <h1 data-field="headline">Hi, I'm Joffrey! Explore my portfolio and the projects behind my journey.</h1>
+            <figure class="hero-portrait">
+              <img src="assets/photo_joffrey.jpeg" data-detail-src="heroImage" alt="Portrait de Joffrey Achard" />
+            </figure>
+          </div>
+          <div class="hero-right">
+            <p class="hero-text" data-field="intro">
+              Je m'appelle Joffrey Achard et je travaille dans le marketing digital et la communication.
+
+              Après plusieurs expériences en France, un semestre d'études au Royaume-Uni et plusieurs mois de voyage et de volontariat à travers l'Amérique du Nord et l'Amérique du Sud, j'ai développé une forte envie d'évoluer dans un environnement international.
+
+              Ce qui m'intéresse avant tout, c'est découvrir de nouvelles façons de travailler, collaborer avec des équipes multiculturelles et relever des défis dans des contextes différents. Le marketing est pour moi un moyen de créer du lien, raconter des histoires et faire rayonner des projets, quel que soit le pays où ils prennent vie.
+
+              À travers ce portfolio, je partage mon parcours, mes réalisations et les expériences qui ont contribué à construire ma vision du monde et de mon métier.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projets" data-label="primaryCta">View my projects</a>
+              <a class="button secondary" data-field-href="cvUrl" href="assets/Resume_Joffrey_ACHARD.pdf" download>
+                <span data-label="secondaryCta">Download my resume</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-section" data-section="portrait">
+        <div>
+          <p class="section-label" data-label="profileLabel">Profile</p>
+          <h2 data-field="profileTitle">Un esprit curieux, tourné vers le monde.</h2>
+        </div>
+        <p data-field="profileText">
+          J'aime découvrir de nouveaux environnements, comprendre différentes façons de penser et sortir régulièrement de ma zone de confort. Une partie de moi a envie d'explorer, d'essayer et d'imaginer la suite. L'autre a besoin de construire, d'organiser et d'aller au bout des choses. Aujourd'hui, je cherche avant tout des projets qui me permettent d'apprendre, de collaborer avec des personnes venues d'horizons différents et de continuer à grandir, professionnellement comme personnellement.
+        </p>
+      </section>
+
+      <section class="identity-band" aria-label="Traits distinctifs" data-repeat="traits" data-section="traits"></section>
+
+      <section class="section approach-section" data-section="approach">
+        <div class="section-heading">
+          <p class="section-label" data-label="approachLabel">How I work</p>
+          <h2 data-label="approachTitle">How I turn an idea into something real.</h2>
+        </div>
+        <div class="approach-grid" data-repeat="pillars"></div>
+      </section>
+
+      <section id="projets" class="section" data-section="projects">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="section-label" data-label="projectsLabel">Selected work</p>
+            <h2 data-label="projectsTitle">Projects</h2>
+          </div>
+          <a class="button secondary" data-field-href="portfolioUrl" href="assets/portfolio-joffrey-achard.pdf" target="_blank" rel="noreferrer">
+            <span data-label="portfolioCta">Open PDF portfolio</span>
+          </a>
+        </div>
+        <div class="project-grid static-project-grid">
+          <article class="project-card" style="--project-color: #315f72;">
+            <div class="project-media" data-static-project-image="0" style="--project-image: url('assets/chamrousse-cover.jpg');"></div>
+            <div class="project-content">
+              <p class="project-type">
+                <span data-lang="en">Chamrousse Tourist Office & AÉSIO Mutuelle</span>
+                <span data-lang="fr">Office de Tourisme de Chamrousse & AÉSIO mutuelle</span>
+              </p>
+              <h3>Web Project Management</h3>
+              <p>
+                <span data-lang="en">
+                  Website management, page redesign, content administration and SEO projects carried out
+                  for Chamrousse Tourist Office and AÉSIO Mutuelle.
+                </span>
+                <span data-lang="fr">
+                  Gestion de site, refonte de pages, administration de contenus et projets SEO menés pour
+                  l'Office de Tourisme de Chamrousse et AÉSIO mutuelle.
+                </span>
+              </p>
+              <button class="project-toggle" type="button" data-project-toggle="static-chamrousse" data-open-label="View project" data-close-label="Close project" aria-expanded="false">
+                <span data-lang="en">View project</span>
+                <span data-lang="fr">Voir le projet</span>
+              </button>
+              <div class="project-details" hidden>
+                <div class="project-page-tabs" role="tablist" aria-label="Chamrousse examples">
+                  <button class="project-page-tab active" type="button" data-project-page-tab="chamrousse-page-1">
+                    <span data-lang="en" data-detail-text="chamrousseTabEn">Chamrousse Tourist Office website modernisation</span>
+                    <span data-lang="fr" data-detail-text="chamrousseTabFr">Modernisation du site de l'Office de Tourisme de Chamrousse</span>
+                  </button>
+                  <button class="project-page-tab" type="button" data-project-page-tab="agora-website">
+                    <span data-lang="en">Agora Portal - Website</span>
+                    <span data-lang="fr">Portail Agora - Site web</span>
+                  </button>
+                  <button class="project-page-tab" type="button" data-project-page-tab="seo-project">
+                    <span data-lang="en">SEO</span>
+                    <span data-lang="fr">SEO</span>
+                  </button>
+                </div>
+                <div class="project-page-panel active" data-project-page-panel="chamrousse-page-1">
+                  <div class="project-case-intro">
+                    <h4>
+                      <span data-lang="en" data-detail-text="chamrousseIntroTitleEn">Page redesign and web content coordination</span>
+                      <span data-lang="fr" data-detail-text="chamrousseIntroTitleFr">Refonte de pages et coordination de contenus web</span>
+                    </h4>
+                    <p>
+                      <span data-lang="en" data-detail-text="chamrousseIntroEn"></span>
+                      <span data-lang="fr" data-detail-text="chamrousseIntroFr"></span>
+                    </p>
+                    <div class="project-tech-note">
+                      <strong><span data-lang="en">Tools and implementation</span><span data-lang="fr">Outils et mise en œuvre</span></strong>
+                      <span data-lang="en" data-detail-text="chamrousseTechEn"></span>
+                      <span data-lang="fr" data-detail-text="chamrousseTechFr"></span>
+                    </div>
+                    <div class="modal-section-title">
+                      <span data-lang="en">Page modernisation examples</span>
+                      <span data-lang="fr">Exemples de modernisation de pages</span>
+                    </div>
+                  </div>
+                  <div class="quick-compare">
+                    <figure>
+                      <span>
+                        <span data-lang="en">Before</span>
+                        <span data-lang="fr">Avant</span>
+                      </span>
+                      <img src="assets/chamrousse-before.png" data-detail-src="chamrousseBefore" alt="Chamrousse page before redesign" />
+                    </figure>
+                    <figure>
+                      <span>
+                        <span data-lang="en">After</span>
+                        <span data-lang="fr">Après</span>
+                      </span>
+                      <img src="assets/chamrousse-after.png" data-detail-src="chamrousseAfter" alt="Chamrousse page after redesign" />
+                    </figure>
+                  </div>
+                  <div class="before-after">
+                    <div>
+                      <strong><span data-lang="en">Before</span><span data-lang="fr">Avant</span></strong>
+                      <p>
+                        <span data-lang="en">Dense content, limited visual hierarchy and key information that was harder to scan quickly.</span>
+                        <span data-lang="fr">Un contenu dense, une hiérarchie visuelle limitée et des informations importantes plus difficiles à repérer rapidement.</span>
+                      </p>
+                    </div>
+                    <div>
+                      <strong><span data-lang="en">After</span><span data-lang="fr">Après</span></strong>
+                      <p>
+                        <span data-lang="en">Clearer blocks, stronger visual rhythm, highlighted practical information and a more modern event page.</span>
+                        <span data-lang="fr">Des blocs plus clairs, un rythme visuel plus fort, des informations pratiques mieux mises en avant et une page événement plus moderne.</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="project-results">
+                    <h5><span data-lang="en">Results</span><span data-lang="fr">Résultats</span></h5>
+                    <div class="results-grid">
+                      <div>
+                        <strong data-detail-text="chamrousseClicksValue">+20%</strong>
+                        <span data-lang="en" data-detail-text="chamrousseClicksEn">clicks on the redesigned page</span>
+                        <span data-lang="fr" data-detail-text="chamrousseClicksFr">de clics sur la page modernisée</span>
+                      </div>
+                      <div>
+                        <strong data-detail-text="chamrousseBounceValue">-25%</strong>
+                        <span data-lang="en" data-detail-text="chamrousseBounceEn">bounce rate</span>
+                        <span data-lang="fr" data-detail-text="chamrousseBounceFr">de taux de rebond</span>
+                      </div>
+                      <div>
+                        <strong data-detail-text="chamrousseCtrValue">CTR</strong>
+                        <span data-lang="en" data-detail-text="chamrousseCtrEn">monitored to optimise calls-to-action and internal links</span>
+                        <span data-lang="fr" data-detail-text="chamrousseCtrFr">suivi pour optimiser les appels à l'action et les liens internes</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-page-panel" data-project-page-panel="agora-website" hidden>
+                  <div class="project-case-study">
+                    <h5>Agora Portal / Le Coin Infos</h5>
+                    <p>
+                      <span data-lang="en" data-detail-text="agoraWebsiteEn"></span>
+                      <span data-lang="fr" data-detail-text="agoraWebsiteFr"></span>
+                    </p>
+                    <div class="project-tech-note">
+                      <strong>CMS</strong>
+                      <span data-lang="en" data-detail-text="agoraTechEn"></span>
+                      <span data-lang="fr" data-detail-text="agoraTechFr"></span>
+                    </div>
+                    <a class="website-preview" href="https://ensemble.aesio.fr/le-coin-infos" data-detail-href="agoraWebsiteLink" target="_blank" rel="noreferrer">
+                      <img src="assets/aesio-coin-infos-preview.jpg" data-detail-src="agoraWebsiteImage" alt="Aperçu de la page Le Coin Infos d'AÉSIO mutuelle" />
+                      <span>
+                        <span data-lang="en">Open the live page</span>
+                        <span data-lang="fr">Ouvrir la page en ligne</span>
+                      </span>
+                    </a>
+                    <div class="project-detail-group">
+                      <h5><span data-lang="en">My contribution</span><span data-lang="fr">Ma contribution</span></h5>
+                      <ul>
+                        <li><span data-lang="en">Content writing and weekly page management</span><span data-lang="fr">Rédaction de contenus et administration hebdomadaire de la page</span></li>
+                        <li><span data-lang="en">Layout work with the project manager and UX designer</span><span data-lang="fr">Travail de mise en page avec le chef de projet et l'UX designer</span></li>
+                        <li><span data-lang="en">Internal newsletters, social media and video-conference presentations</span><span data-lang="fr">Newsletters internes, réseaux sociaux et présentations en visioconférence</span></li>
+                      </ul>
+                    </div>
+                    <div class="project-results">
+                      <h5><span data-lang="en">Results</span><span data-lang="fr">Statistiques</span></h5>
+                      <div class="results-grid">
+                        <div>
+                          <strong data-detail-text="agoraStatVisitsValue">+68.9%</strong>
+                          <span data-lang="en" data-detail-text="agoraStatVisitsEn">visits compared with 2022</span>
+                          <span data-lang="fr" data-detail-text="agoraStatVisitsFr">de visites par rapport à 2022</span>
+                        </div>
+                        <div>
+                          <strong data-detail-text="agoraStatViewsValue">+27.2%</strong>
+                          <span data-lang="en" data-detail-text="agoraStatViewsEn">page views compared with 2022</span>
+                          <span data-lang="fr" data-detail-text="agoraStatViewsFr">de pages vues par rapport à 2022</span>
+                        </div>
+                        <div>
+                          <strong data-detail-text="agoraStatMonthValue">15.6k</strong>
+                          <span data-lang="en" data-detail-text="agoraStatMonthEn">visits and 1,719 journeys to the Business website in one month</span>
+                          <span data-lang="fr" data-detail-text="agoraStatMonthFr">visites et 1 719 passerelles vers le site Business en un mois</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-page-panel" data-project-page-panel="seo-project" hidden>
+                  <div class="project-case-study">
+                    <h5>
+                      <span data-lang="en">SEO and prevention content structure</span>
+                      <span data-lang="fr">SEO et structure éditoriale dédiée à la prévention</span>
+                    </h5>
+                    <p>
+                      <span data-lang="en" data-detail-text="seoEn"></span>
+                      <span data-lang="fr" data-detail-text="seoFr"></span>
+                    </p>
+                    <div class="project-tech-note">
+                      <strong>CMS</strong>
+                      <span data-lang="en" data-detail-text="seoTechEn"></span>
+                      <span data-lang="fr" data-detail-text="seoTechFr"></span>
+                    </div>
+                    <a class="website-preview" href="https://ensemble.aesio.fr/aesio-mag/prevention-sante-quels-enjeux" data-detail-href="seoLink" target="_blank" rel="noreferrer">
+                      <img src="assets/aesio-seo-preview.jpg" data-detail-src="seoImage" alt="Aperçu de l'article AÉSIO sur la prévention santé" />
+                      <span>
+                        <span data-lang="en">Open the SEO article</span>
+                        <span data-lang="fr">Ouvrir l'article SEO</span>
+                      </span>
+                    </a>
+                    <div class="project-results">
+                      <h5><span data-lang="en">Results</span><span data-lang="fr">Résultats</span></h5>
+                      <div class="results-grid">
+                        <div>
+                          <strong data-detail-text="seoStatSlowValue">71 → 40</strong>
+                          <span data-lang="en" data-detail-text="seoStatSlowEn">slow URLs between April and August</span>
+                          <span data-lang="fr" data-detail-text="seoStatSlowFr">URL lentes entre avril et août</span>
+                        </div>
+                        <div>
+                          <strong data-detail-text="seoStatFastValue">18 → 34</strong>
+                          <span data-lang="en" data-detail-text="seoStatFastEn">fast URLs between April and August</span>
+                          <span data-lang="fr" data-detail-text="seoStatFastFr">URL rapides entre avril et août</span>
+                        </div>
+                        <div>
+                          <strong data-detail-text="seoStatPositionValue">#3</strong>
+                          <span data-lang="en" data-detail-text="seoStatPositionEn">position reached by the “Vivre mieux” content silo</span>
+                          <span data-lang="fr" data-detail-text="seoStatPositionFr">position atteinte par le silo « Vivre mieux »</span>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="project-external" href="https://ensemble.aesio.fr/aesio-mag/prevention-sante-quels-enjeux" data-detail-href="seoLink" target="_blank" rel="noreferrer">
+                      <span data-lang="en">View an example article</span>
+                      <span data-lang="fr">Voir un exemple d'article</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" style="--project-color: #0f6b5d;">
+            <div class="project-media" data-static-project-image="1" style="--project-image: url('assets/valliue-photo-cover.jpg');"></div>
+            <div class="project-content">
+              <p class="project-type">
+                <span data-lang="en">Valliue electronic music media</span>
+                <span data-lang="fr">Média musical électronique Valliue</span>
+              </p>
+              <h3>
+                <span data-lang="en">Writing & Journalism</span>
+                <span data-lang="fr">Rédaction & Journalisme</span>
+              </h3>
+              <p>
+                <span data-lang="en">
+                  Since 2021, I have written articles, covered events and contributed to collaborations
+                  with major electronic music festivals.
+                </span>
+                <span data-lang="fr">
+                  Depuis 2021, je rédige des articles, couvre des événements et contribue à des collaborations
+                  avec de grands festivals de musique électronique.
+                </span>
+              </p>
+              <button class="project-toggle" type="button" data-project-toggle="static-valliue" data-open-label="View project" data-close-label="Close project" aria-expanded="false">
+                <span data-lang="en">View project</span>
+                <span data-lang="fr">Voir le projet</span>
+              </button>
+              <div class="project-details" hidden>
+                <h4>
+                  <span data-lang="en">Electronic music media, articles and partnerships</span>
+                  <span data-lang="fr">Média consacré à la musique électronique, articles et partenariats</span>
+                </h4>
+                <p>
+                  <span data-lang="en" data-detail-text="journalismEn"></span>
+                  <span data-lang="fr" data-detail-text="journalismFr"></span>
+                </p>
+                <a class="journalism-feature" href="https://valliue.com/author/jooffrey/" data-detail-href="journalismLink" target="_blank" rel="noreferrer">
+                  <img src="assets/valliue-article-preview.jpg" data-detail-src="journalismArticleImage" alt="Aperçu d'un article publié par Joffrey pour Valliue" />
+                  <span>
+                    <span data-lang="en" data-detail-text="journalismCtaEn">Discover all my articles</span>
+                    <span data-lang="fr" data-detail-text="journalismCtaFr">Découvrir tous mes articles</span>
+                  </span>
+                </a>
+                <div class="project-detail-group">
+                  <h5><span data-lang="en">Articles</span><span data-lang="fr">Articles</span></h5>
+                  <ul>
+                    <li><span data-lang="en">News articles, new music releases and album coverage</span><span data-lang="fr">Articles d'actualité, nouvelles sorties musicales et albums</span></li>
+                    <li><span data-lang="en">Event reports from festivals and concerts</span><span data-lang="fr">Reportages d'événements, festivals et concerts</span></li>
+                    <li><span data-lang="en">Artist interviews, including international interviews</span><span data-lang="fr">Interviews d'artistes, dont des interviews internationales</span></li>
+                  </ul>
+                </div>
+                <div class="project-results journalism-results">
+                  <h5><span data-lang="en">Key results</span><span data-lang="fr">Résultats clés</span></h5>
+                  <div class="results-grid">
+                    <div>
+                      <strong data-detail-text="journalismArticlesValue">70</strong>
+                      <span data-lang="en" data-detail-text="journalismArticlesEn">articles published</span>
+                      <span data-lang="fr" data-detail-text="journalismArticlesFr">articles publiés</span>
+                    </div>
+                    <div>
+                      <strong data-detail-text="journalismTrafficValue">35%</strong>
+                      <span data-lang="en" data-detail-text="journalismTrafficEn">of Valliue's total website traffic generated in 2024 and 2025</span>
+                      <span data-lang="fr" data-detail-text="journalismTrafficFr">du trafic total du site Valliue généré en 2024 et 2025</span>
+                    </div>
+                    <div>
+                      <strong data-detail-text="journalismPartnersValue">11</strong>
+                      <span data-lang="en" data-detail-text="journalismPartnersEn">new partners acquired</span>
+                      <span data-lang="fr" data-detail-text="journalismPartnersFr">nouveaux partenaires acquis</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-detail-group tag-list partner-list">
+                  <h5><span data-lang="en">New partner acquisition</span><span data-lang="fr">Acquisition de nouveaux partenaires</span></h5>
+                  <ul>
+                    <li data-detail-text="journalismPartners" data-detail-index="0">Lollapalooza Paris</li>
+                    <li data-detail-text="journalismPartners" data-detail-index="1">Delta Festival</li>
+                    <li data-detail-text="journalismPartners" data-detail-index="2">Sea You Festival</li>
+                    <li data-detail-text="journalismPartners" data-detail-index="3">Dream Nation Festival</li>
+                    <li data-detail-text="journalismPartners" data-detail-index="4">Pharaonic Festival</li>
+                    <li data-detail-text="journalismPartners" data-detail-index="5">Dystopia Festival</li>
+                    <li data-detail-text="journalismPartners" data-detail-index="6">Audiogenic</li>
+                    <li data-detail-text="journalismPartners" data-detail-index="7">FCKNYE Festival</li>
+                    <li data-detail-text="journalismPartners" data-detail-index="8">Siks</li>
+                    <li data-detail-text="journalismPartners" data-detail-index="9">Stereoparc Festival</li>
+                    <li data-detail-text="journalismPartners" data-detail-index="10">Electrolapse Festival</li>
+                  </ul>
+                </div>
+                <a class="project-external" href="https://valliue.com/author/jooffrey/" data-detail-href="journalismLink" target="_blank" rel="noreferrer">
+                  <span data-lang="en">Open author page</span>
+                  <span data-lang="fr">Ouvrir la page auteur</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" style="--project-color: #315f72;">
+            <div
+              class="project-media project-media-video"
+              data-detail-background="videosCoverImage"
+              style="--project-image: url('assets/videos-project-cover.jpg');"
+            >
+              <div class="video-cover-frame" aria-hidden="true">
+                <div class="video-cover-header">
+                  <span class="video-cover-dots"><i></i><i></i><i></i></span>
+                  <span>Video project</span>
+                </div>
+                <div class="video-cover-screen"></div>
+                <div class="video-cover-controls">
+                  <span class="video-cover-play"></span>
+                  <span class="video-cover-progress"><i></i></span>
+                  <span class="video-cover-time">00:18</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">
+                <span data-lang="en">Motion design and reporting</span>
+                <span data-lang="fr">Motion design et reportage</span>
+              </p>
+              <h3>
+                <span data-lang="en">Videos</span>
+                <span data-lang="fr">Vidéos</span>
+              </h3>
+              <p>
+                <span data-lang="en">
+                  Motion design videos and event reporting produced from the initial brief through to online distribution.
+                </span>
+                <span data-lang="fr">
+                  Des vidéos en motion design et un reportage événementiel réalisés du brief initial jusqu'à leur diffusion en ligne.
+                </span>
+              </p>
+              <button class="project-toggle" type="button" data-project-toggle="static-videos" data-open-label="View project" data-close-label="Close project" aria-expanded="false">
+                <span data-lang="en">View project</span>
+                <span data-lang="fr">Voir le projet</span>
+              </button>
+              <div class="project-details" hidden>
+                <h4>
+                  <span data-lang="en">Motion Design, Interviews and Reports</span>
+                  <span data-lang="fr">Motion Design, Interviews, reportages</span>
+                </h4>
+                <div class="video-project-section">
+                  <h5>Educlever</h5>
+                  <p>
+                    <span data-lang="en" data-detail-text="videosEducleverEn"></span>
+                    <span data-lang="fr" data-detail-text="videosEducleverFr"></span>
+                  </p>
+                  <div class="project-video-grid">
+                    <a class="project-video-card" data-video-play href="https://www.youtube.com/watch?v=ReREZda2Wp8&amp;t=4s" data-detail-href="videoLinks" data-detail-index="0">
+                      <span class="project-video-image">
+                        <img src="assets/video-bassetti-1.jpg" data-detail-src="videoImages" data-detail-index="0" alt="Aperçu d'une vidéo en motion design pour BASSETTI Group" />
+                        <span class="project-video-play" aria-hidden="true">▶</span>
+                      </span>
+                      <strong><span data-lang="en" data-detail-text="videoTitlesEn" data-detail-index="0">Event report</span><span data-lang="fr" data-detail-text="videoTitlesFr" data-detail-index="0">Reportage événement</span></strong>
+                    </a>
+                    <a class="project-video-card" data-video-play href="https://www.youtube.com/watch?v=6Ln2JXX_pzk" data-detail-href="videoLinks" data-detail-index="1">
+                      <span class="project-video-image">
+                        <img src="assets/video-bassetti-2.jpg" data-detail-src="videoImages" data-detail-index="1" alt="Aperçu d'une vidéo en motion design pour BASSETTI Group" />
+                        <span class="project-video-play" aria-hidden="true">▶</span>
+                      </span>
+                      <strong><span data-lang="en" data-detail-text="videoTitlesEn" data-detail-index="1">Event announcement</span><span data-lang="fr" data-detail-text="videoTitlesFr" data-detail-index="1">Annonce événement</span></strong>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-project-section">
+                  <h5>BASSETTI Group</h5>
+                  <p>
+                    <span data-lang="en" data-detail-text="videosBassettiEn"></span>
+                    <span data-lang="fr" data-detail-text="videosBassettiFr"></span>
+                  </p>
+                  <div class="project-video-grid bassetti-video-grid">
+                    <a class="project-video-card" data-video-play href="https://www.youtube.com/watch?v=C3K3Ug_kClc" data-detail-href="videoLinks" data-detail-index="2">
+                      <span class="project-video-image">
+                        <img src="assets/video-bassetti-3.jpg" data-detail-src="videoImages" data-detail-index="2" alt="Aperçu d'une interview réalisée pour BASSETTI Group" />
+                        <span class="project-video-play" aria-hidden="true">▶</span>
+                      </span>
+                      <strong><span data-lang="en" data-detail-text="videoTitlesEn" data-detail-index="2">Interview</span><span data-lang="fr" data-detail-text="videoTitlesFr" data-detail-index="2">Interview</span></strong>
+                    </a>
+                    <a class="project-video-card" data-video-play href="https://www.youtube.com/watch?v=zlUU52Y0nnU" data-detail-href="videoLinks" data-detail-index="3">
+                      <span class="project-video-image">
+                        <img src="assets/video-bassetti-4.jpg" data-detail-src="videoImages" data-detail-index="3" alt="Aperçu d'une vidéo en motion design pour BASSETTI Group" />
+                        <span class="project-video-play" aria-hidden="true">▶</span>
+                      </span>
+                      <strong><span data-lang="en" data-detail-text="videoTitlesEn" data-detail-index="3">Motion design</span><span data-lang="fr" data-detail-text="videoTitlesFr" data-detail-index="3">Motion design</span></strong>
+                    </a>
+                    <a class="project-video-card compact-video-card" data-video-play href="https://www.youtube.com/watch?v=pWvoHdWWLek" data-detail-href="videoLinks" data-detail-index="4">
+                      <span class="project-video-image">
+                        <img src="assets/video-educlever-report.jpg" data-detail-src="videoImages" data-detail-index="4" alt="Aperçu du reportage vidéo réalisé pour Educlever" />
+                        <span class="project-video-play" aria-hidden="true">▶</span>
+                      </span>
+                      <strong><span data-lang="en" data-detail-text="videoTitlesEn" data-detail-index="4">New Year greeting card</span><span data-lang="fr" data-detail-text="videoTitlesFr" data-detail-index="4">Carte de vœux</span></strong>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" style="--project-color: #7b5842;">
+            <div class="project-media project-media-showcase">
+              <img src="assets/documents-showcase.jpg" data-detail-src="documentsImage" alt="Exemples de documents de communication réalisés pour BASSETTI Group et Educlever" />
+            </div>
+            <div class="project-content">
+              <p class="project-type">
+                <span data-lang="en">Marketing materials</span>
+                <span data-lang="fr">Supports marketing</span>
+              </p>
+              <h3>
+                <span data-lang="en">Communication documents</span>
+                <span data-lang="fr">Documents de communication</span>
+              </h3>
+              <p>
+                <span data-lang="en">
+                  Product sheets, landing pages, banners, flyers, webinar materials and B2B brochures for sales and marketing teams.
+                </span>
+                <span data-lang="fr">
+                  Fiches produits, landing pages, bannières, flyers, supports de webinaire et livrets BtoB pour les équipes commerciales et marketing.
+                </span>
+              </p>
+              <button class="project-toggle" type="button" data-project-toggle="static-documents" data-open-label="View project" data-close-label="Close project" aria-expanded="false">
+                <span data-lang="en">View project</span>
+                <span data-lang="fr">Voir le projet</span>
+              </button>
+              <div class="project-details" hidden>
+                <h4>
+                  <span data-lang="en">Clear assets for marketing and sales activation</span>
+                  <span data-lang="fr">Des supports clairs pour activer le marketing et le commercial</span>
+                </h4>
+                <p>
+                  <span data-lang="en" data-detail-text="documentsEn"></span>
+                  <span data-lang="fr" data-detail-text="documentsFr"></span>
+                </p>
+                <figure class="project-showcase project-showcase-documents">
+                  <img src="assets/documents-showcase.jpg" data-detail-src="documentsImage" alt="Livre blanc, support de webinaire et flyer événementiel" />
+                  <figcaption>
+                    <span data-lang="en">A selection of print and digital communication materials</span>
+                    <span data-lang="fr">Une sélection de supports de communication imprimés et numériques</span>
+                  </figcaption>
+                </figure>
+                <div class="project-detail-group tag-list">
+                  <h5><span data-lang="en">Formats</span><span data-lang="fr">Formats</span></h5>
+                  <ul>
+                    <li><span data-lang="en">Product sheets</span><span data-lang="fr">Fiches produits</span></li>
+                    <li><span data-lang="en">White papers</span><span data-lang="fr">Livres blancs</span></li>
+                    <li><span data-lang="en">Landing pages</span><span data-lang="fr">Landing pages</span></li>
+                    <li><span data-lang="en">Banners and flyers</span><span data-lang="fr">Bannières et flyers</span></li>
+                    <li><span data-lang="en">Webinar and B2B materials</span><span data-lang="fr">Supports de webinaire et BtoB</span></li>
+                  </ul>
+                </div>
+                <div class="project-detail-group">
+                  <h5><span data-lang="en">Software used</span><span data-lang="fr">Logiciels utilisés</span></h5>
+                  <p>Adobe InDesign, Canva, Adobe Illustrator</p>
+                </div>
+                <a class="project-external" href="assets/portfolio-joffrey-achard.pdf" target="_blank" rel="noreferrer">
+                  <span data-lang="en">Open PDF portfolio</span>
+                  <span data-lang="fr">Ouvrir le portfolio PDF</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" style="--project-color: #c9973f;">
+            <div class="project-media project-media-showcase">
+              <img src="assets/communication-plan-showcase.jpg" data-detail-src="communicationPlanImage" alt="Exemple de la série éditoriale L'Ortho Hebdo" />
+            </div>
+            <div class="project-content">
+              <p class="project-type">
+                <span data-lang="en">LinkedIn strategy and editorial planning</span>
+                <span data-lang="fr">Stratégie LinkedIn et planning éditorial</span>
+              </p>
+              <h3>
+                <span data-lang="en">Communication plan</span>
+                <span data-lang="fr">Plan de communication</span>
+              </h3>
+              <p>
+                <span data-lang="en">Communication plans designed to strengthen Orthodidacte's brand awareness on LinkedIn.</span>
+                <span data-lang="fr">Des plans de communication conçus pour renforcer la notoriété d'Orthodidacte sur LinkedIn.</span>
+              </p>
+              <button class="project-toggle" type="button" data-project-toggle="static-communication-plan" aria-expanded="false">
+                <span data-lang="en">View project</span>
+                <span data-lang="fr">Voir le projet</span>
+              </button>
+              <div class="project-details" hidden>
+                <h4>
+                  <span data-lang="en">Orthodidacte communication strategy</span>
+                  <span data-lang="fr">Stratégie de communication Orthodidacte</span>
+                </h4>
+                <p>
+                  <span data-lang="en" data-detail-text="communicationPlanEn"></span>
+                  <span data-lang="fr" data-detail-text="communicationPlanFr"></span>
+                </p>
+                <figure class="project-showcase project-showcase-portrait">
+                  <img src="assets/communication-plan-showcase.jpg" data-detail-src="communicationPlanImage" alt="Visuel L'Ortho Hebdo conçu pour les réseaux sociaux" />
+                  <figcaption>
+                    <span data-lang="en">L'Ortho Hebdo: a recurring editorial format designed for social media</span>
+                    <span data-lang="fr">L'Ortho Hebdo : un format éditorial récurrent pensé pour les réseaux sociaux</span>
+                  </figcaption>
+                </figure>
+                <div class="project-detail-group">
+                  <h5><span data-lang="en">Responsibilities</span><span data-lang="fr">Responsabilités</span></h5>
+                  <ul>
+                    <li><span data-lang="en">Strategy and editorial planning</span><span data-lang="fr">Stratégie et planning éditorial</span></li>
+                    <li><span data-lang="en">Visual creation with Canva and Adobe Illustrator</span><span data-lang="fr">Création visuelle avec Canva et Adobe Illustrator</span></li>
+                    <li><span data-lang="en">Publication management on LinkedIn</span><span data-lang="fr">Gestion des publications sur LinkedIn</span></li>
+                    <li><span data-lang="en">L'Ortho Hebdo carousel series</span><span data-lang="fr">Série de carrousels L'Ortho Hebdo</span></li>
+                  </ul>
+                </div>
+                <div class="project-results">
+                  <h5><span data-lang="en">Results</span><span data-lang="fr">Résultats</span></h5>
+                  <div class="results-grid results-grid-single">
+                    <div>
+                      <strong data-detail-text="communicationPlanTrafficValue">&gt; 100%</strong>
+                      <span data-lang="en" data-detail-text="communicationPlanTrafficEn">traffic to the LinkedIn page</span>
+                      <span data-lang="fr" data-detail-text="communicationPlanTrafficFr">de trafic vers la page LinkedIn</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" style="--project-color: #0f6b5d;">
+            <div class="project-media newsletter-header">
+              <div>
+                <img src="assets/B2B.png" data-detail-src="newsletterB2BImage" alt="Newsletter B2B de Chamrousse" />
+                <span>B2B</span>
+              </div>
+              <div>
+                <img src="assets/B2C.png" data-detail-src="newsletterB2CImage" alt="Newsletter B2C de Chamrousse" />
+                <span>B2C</span>
+              </div>
+              <div class="newsletter-header-editis">
+                <img src="assets/educlever-newsletter.png" data-detail-src="newsletterEditisImage" alt="Newsletters Educlever et Editis" />
+                <span>EDITIS</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">
+                <span data-lang="en">B2B and B2C editorial communication</span>
+                <span data-lang="fr">Communication éditoriale B2B et B2C</span>
+              </p>
+              <h3>Newsletters</h3>
+              <p>
+                <span data-lang="en">Newsletter formats designed for Chamrousse and Educlever / Editis audiences.</span>
+                <span data-lang="fr">Des formats de newsletters conçus pour les publics de Chamrousse et d'Educlever / Editis.</span>
+              </p>
+              <button class="project-toggle" type="button" data-project-toggle="static-newsletters" aria-expanded="false">
+                <span data-lang="en">View project</span>
+                <span data-lang="fr">Voir le projet</span>
+              </button>
+              <div class="project-details" hidden>
+                <h4>
+                  <span data-lang="en">Newsletters for Chamrousse and Educlever / Editis</span>
+                  <span data-lang="fr">Newsletters pour Chamrousse et Educlever / Editis</span>
+                </h4>
+                <p>
+                  <span data-lang="en" data-detail-text="newslettersChamrousseEn"></span>
+                  <span data-lang="fr" data-detail-text="newslettersChamrousseFr"></span>
+                </p>
+                <div class="newsletter-sections">
+                  <section class="newsletter-case">
+                    <div class="newsletter-case-heading">
+                      <span class="newsletter-audience">B2B</span>
+                      <div>
+                        <h5>
+                          <span data-lang="en" data-detail-text="newsletterB2BTitleEn">Newsletter for resort professionals</span>
+                          <span data-lang="fr" data-detail-text="newsletterB2BTitleFr">Newsletter à destination des professionnels</span>
+                        </h5>
+                        <p>
+                          <span data-lang="en" data-detail-text="newsletterB2BEn"></span>
+                          <span data-lang="fr" data-detail-text="newsletterB2BFr"></span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="newsletter-preview" tabindex="0" aria-label="Aperçu déroulant de la newsletter B2B">
+                      <img src="assets/B2B.png" data-detail-src="newsletterB2BImage" alt="Newsletter B2B complète de Chamrousse" />
+                    </div>
+                  </section>
+                  <section class="newsletter-case">
+                    <div class="newsletter-case-heading">
+                      <span class="newsletter-audience">B2C</span>
+                      <div>
+                        <h5>
+                          <span data-lang="en" data-detail-text="newsletterB2CTitleEn">Newsletter for visitors</span>
+                          <span data-lang="fr" data-detail-text="newsletterB2CTitleFr">Newsletter à destination du grand public</span>
+                        </h5>
+                        <p>
+                          <span data-lang="en" data-detail-text="newsletterB2CEn"></span>
+                          <span data-lang="fr" data-detail-text="newsletterB2CFr"></span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="newsletter-preview" tabindex="0" aria-label="Aperçu déroulant de la newsletter B2C">
+                      <img src="assets/B2C.png" data-detail-src="newsletterB2CImage" alt="Newsletter B2C complète de Chamrousse" />
+                    </div>
+                  </section>
+                  <section class="newsletter-case newsletter-case-editis">
+                    <div class="newsletter-case-heading">
+                      <span class="newsletter-audience">EDITIS</span>
+                      <div>
+                        <h5>
+                          <span data-lang="en" data-detail-text="newsletterEditisTitleEn">Educlever editorial newsletters</span>
+                          <span data-lang="fr" data-detail-text="newsletterEditisTitleFr">Newsletters éditoriales Educlever</span>
+                        </h5>
+                        <p>
+                          <span data-lang="en" data-detail-text="newsletterEditisEn"></span>
+                          <span data-lang="fr" data-detail-text="newsletterEditisFr"></span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="newsletter-editis-preview">
+                      <img src="assets/educlever-newsletter.png" data-detail-src="newsletterEditisImage" alt="Exemples de newsletters conçues pour Educlever et Editis" />
+                    </div>
+                    <div class="project-results newsletter-editis-results">
+                      <h5><span data-lang="en">Results</span><span data-lang="fr">Résultats</span></h5>
+                      <div class="results-grid results-grid-single">
+                        <div>
+                          <strong data-detail-text="newsletterEditisClicksValue">&gt; 60%</strong>
+                          <span data-lang="en" data-detail-text="newsletterEditisClicksEn">click-through rate</span>
+                          <span data-lang="fr" data-detail-text="newsletterEditisClicksFr">de taux de clics</span>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" style="--project-color: #6c6f3f;">
+            <div class="project-media project-media-showcase">
+              <img src="assets/white-paper-header.jpg" data-detail-src="whitePaperHeaderImage" alt="Couverture du livre blanc sur l'empreinte carbone des festivals" />
+            </div>
+            <div class="project-content">
+              <p class="project-type">
+                <span data-lang="en">Research and editorial design</span>
+                <span data-lang="fr">Recherche et design éditorial</span>
+              </p>
+              <h3>
+                <span data-lang="en">White paper</span>
+                <span data-lang="fr">Livre blanc</span>
+              </h3>
+              <p>
+                <span data-lang="en">
+                  A white paper written and designed during my Master's degree about reducing the carbon footprint of music festivals.
+                </span>
+                <span data-lang="fr">
+                  Un livre blanc rédigé et mis en page pendant mon Master sur la réduction de l'empreinte carbone des festivals de musique.
+                </span>
+              </p>
+              <button class="project-toggle" type="button" data-project-toggle="static-white-paper" data-open-label="View project" data-close-label="Close project" aria-expanded="false">
+                <span data-lang="en">View project</span>
+                <span data-lang="fr">Voir le projet</span>
+              </button>
+              <div class="project-details" hidden>
+                <h4>
+                  <span data-lang="en">Reducing the carbon footprint of music festivals</span>
+                  <span data-lang="fr">Comment réduire l'empreinte carbone des festivals de musique</span>
+                </h4>
+                <p>
+                  <span data-lang="en" data-detail-text="whitePaperEn"></span>
+                  <span data-lang="fr" data-detail-text="whitePaperFr"></span>
+                </p>
+                <iframe class="pdf-preview compact-pdf-preview" src="assets/livre-blanc-festivals.pdf" data-detail-src="whitePaperPdf" title="Livre blanc festivals"></iframe>
+                <div class="project-download">
+                  <div>
+                    <strong><span data-lang="en">Full white paper</span><span data-lang="fr">Livre blanc complet</span></strong>
+                    <p>
+                      <span data-lang="en">Download the PDF to read the complete research and recommendations.</span>
+                      <span data-lang="fr">Téléchargez le PDF pour consulter l'étude et l'ensemble des recommandations.</span>
+                    </p>
+                  </div>
+                  <a class="button primary" href="assets/livre-blanc-festivals.pdf" data-detail-href="whitePaperPdf" download>
+                    <span data-lang="en">Download the PDF</span>
+                    <span data-lang="fr">Télécharger le PDF</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" style="--project-color: #d66f55;">
+            <div class="project-media project-media-showcase">
+              <img src="assets/brief-project-header.jpg" data-detail-src="briefHeaderImage" alt="Couverture du brief créatif Agora Portal et Le Coin Infos" />
+            </div>
+            <div class="project-content">
+              <p class="project-type">
+                <span data-lang="en">Creative direction and motion design</span>
+                <span data-lang="fr">Direction créative et motion design</span>
+              </p>
+              <h3>
+                <span data-lang="en">Creative brief writing</span>
+                <span data-lang="fr">Création de brief</span>
+              </h3>
+              <p>
+                <span data-lang="en">
+                  Briefs built to frame a motion design project: message, audience, narrative structure, visual direction and production needs.
+                </span>
+                <span data-lang="fr">
+                  Des briefs pour cadrer un projet de motion design : message, audience, structure narrative, direction visuelle et besoins de production.
+                </span>
+              </p>
+              <button class="project-toggle" type="button" data-project-toggle="static-brief" data-open-label="View project" data-close-label="Close project" aria-expanded="false">
+                <span data-lang="en">View project</span>
+                <span data-lang="fr">Voir le projet</span>
+              </button>
+              <div class="project-details" hidden>
+                <h4>
+                  <span data-lang="en">From idea to production-ready brief</span>
+                  <span data-lang="fr">De l'idée au brief prêt pour la production</span>
+                </h4>
+                <p>
+                  <span data-lang="en">
+                    I enjoy the stage where an idea still needs to be made clear. My role was to turn the
+                    initial objective into a useful brief that the motion design project manager could work from.
+                  </span>
+                  <span data-lang="fr">
+                    J'aime cette étape où une idée doit encore être clarifiée. Mon rôle consistait à transformer
+                    l'objectif initial en un brief utile et exploitable par le chef de projet motion design.
+                  </span>
+                </p>
+                <div class="project-case-study">
+                  <h5>Agora Portal / Le Coin Infos</h5>
+                  <p>
+                    <span data-lang="en" data-detail-text="briefProjectEn">
+                      These motion design videos aim to promote the Agora Portal / Le Coin Infos (Project 1)
+                      on social media. As part of this project, I created the briefs, captured video content
+                      from the website, and organised the video structure to assist the motion design project
+                      manager in producing the videos.
+                    </span>
+                    <span data-lang="fr" data-detail-text="briefProjectFr">
+                      Ces vidéos en motion design ont pour objectif de promouvoir le Portail Agora / Le Coin
+                      Infos (Projet 1) sur les réseaux sociaux. Dans le cadre de ce projet, j'ai créé les briefs,
+                      capturé des contenus vidéo du site web et organisé la structure des vidéos afin
+                      d'accompagner le chef de projet motion design dans leur production.
+                    </span>
+                  </p>
+                  <a
+                    class="youtube-preview"
+                    href="https://www.youtube.com/watch?v=8AQAjC1kFic&amp;list=PLaxJVgkhTIUxC_CiFGCUwFuZlrdWHYQ6K"
+                    data-detail-href="briefVideoLink"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Open the Motion Design video on YouTube">
+                    <img src="assets/agora-motion-design-video.jpg" data-detail-src="briefVideoImage" alt="Aperçu de la vidéo Motion Design Agora Portal / Le Coin Infos" />
+                    <span class="youtube-play" aria-hidden="true">▶</span>
+                    <span class="youtube-preview-label">
+                      <span data-lang="en">Watch the video on YouTube</span>
+                      <span data-lang="fr">Voir la vidéo sur YouTube</span>
+                    </span>
+                  </a>
+                  <div class="project-download">
+                    <div>
+                      <strong>
+                        <span data-lang="en">Reconstructed creative brief</span>
+                        <span data-lang="fr">Brief créatif reconstitué</span>
+                      </strong>
+                      <p>
+                        <span data-lang="en">A portfolio version presenting the context, storyboard, deliverables and validation process.</span>
+                        <span data-lang="fr">Une version portfolio présentant le contexte, le storyboard, les livrables et le circuit de validation.</span>
+                      </p>
+                    </div>
+                    <a class="button primary" href="assets/brief-motion-design-agora-aesio.pdf" data-detail-href="briefPdf" download>
+                      <span data-lang="en">Download the brief</span>
+                      <span data-lang="fr">Télécharger le brief</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-detail-group">
+                  <h5><span data-lang="en">Brief structure</span><span data-lang="fr">Structure du brief</span></h5>
+                  <ul>
+                    <li><span data-lang="en">Context and objective</span><span data-lang="fr">Contexte et objectif</span></li>
+                    <li><span data-lang="en">Target audience and key message</span><span data-lang="fr">Audience cible et message principal</span></li>
+                    <li><span data-lang="en">Tone, visual references and expected deliverables</span><span data-lang="fr">Ton, références visuelles et livrables attendus</span></li>
+                    <li><span data-lang="en">Production constraints and validation steps</span><span data-lang="fr">Contraintes de production et étapes de validation</span></li>
+                  </ul>
+                </div>
+                <a class="project-external" href="assets/portfolio-joffrey-achard.pdf" target="_blank" rel="noreferrer">
+                  <span data-lang="en">Open PDF portfolio</span>
+                  <span data-lang="fr">Ouvrir le portfolio PDF</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card-priority" style="--project-color: #b5162b;">
+            <div class="project-media project-media-showcase">
+              <img src="assets/tefal-project-header.jpg" data-detail-src="tefalHeaderImage" alt="Couverture du dossier de compétition d'agence Tefal" />
+            </div>
+            <div class="project-content">
+              <p class="project-type">
+                <span data-lang="en">Team leadership and agency competition</span>
+                <span data-lang="fr">Management d'équipe et compétition d'agence</span>
+              </p>
+              <h3><span data-lang="en">Project Manager</span><span data-lang="fr">Chef de projet</span></h3>
+              <p>
+                <span data-lang="en">Leading a student agency team through a strategic challenge for Tefal, from the initial brief to the final presentation.</span>
+                <span data-lang="fr">Pilotage d'une équipe en compétition d'agence pour Tefal, du brief initial jusqu'à la présentation finale.</span>
+              </p>
+              <button class="project-toggle" type="button" data-project-toggle="static-tefal" aria-expanded="false">
+                <span data-lang="en">View project</span><span data-lang="fr">Voir le projet</span>
+              </button>
+              <div class="project-details" hidden>
+                <h4>
+                  <span data-lang="en" data-detail-text="tefalTitleEn">Leading an agency team for Tefal</span>
+                  <span data-lang="fr" data-detail-text="tefalTitleFr">Piloter une équipe en compétition d'agence pour Tefal</span>
+                </h4>
+                <p>
+                  <span data-lang="en" data-detail-text="tefalProjectEn"></span>
+                  <span data-lang="fr" data-detail-text="tefalProjectFr"></span>
+                </p>
+                <div class="project-results">
+                  <h5><span data-lang="en">My role and results</span><span data-lang="fr">Mon rôle et les résultats</span></h5>
+                  <div class="results-grid">
+                    <div>
+                      <strong><span data-lang="en">Team lead</span><span data-lang="fr">Chef d'équipe</span></strong>
+                      <span data-lang="en">Task allocation, coordination and collective decision-making</span>
+                      <span data-lang="fr">Répartition des missions, coordination et prise de décision collective</span>
+                    </div>
+                    <div>
+                      <strong><span data-lang="en">Delivery</span><span data-lang="fr">Pilotage</span></strong>
+                      <span data-lang="en">Managing deadlines, ideas and the consistency of the final recommendation</span>
+                      <span data-lang="fr">Gestion des délais, des idées et de la cohérence de la recommandation finale</span>
+                    </div>
+                    <div>
+                      <strong data-detail-text="tefalResultValue">Top 2</strong>
+                      <span data-lang="en" data-detail-text="tefalResultEn">finalist among around twenty teams</span>
+                      <span data-lang="fr" data-detail-text="tefalResultFr">finaliste parmi une vingtaine d'équipes</span>
+                    </div>
+                  </div>
+                </div>
+                <iframe class="pdf-preview compact-pdf-preview" src="assets/Dossier-Tefal-Groupe-21.pdf" data-detail-src="tefalPdf" title="Dossier de compétition Tefal"></iframe>
+                <div class="project-download">
+                  <div>
+                    <strong><span data-lang="en">Complete agency recommendation</span><span data-lang="fr">Recommandation d'agence complète</span></strong>
+                    <p>
+                      <span data-lang="en">The strategic and creative proposal presented to Tefal during the competition.</span>
+                      <span data-lang="fr">La proposition stratégique et créative présentée à Tefal pendant la compétition.</span>
+                    </p>
+                  </div>
+                  <a class="button primary" href="assets/Dossier-Tefal-Groupe-21.pdf" data-detail-href="tefalPdf" download>
+                    <span data-lang="en">Download the PDF</span><span data-lang="fr">Télécharger le PDF</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="cv" class="section cv-section" data-section="cv">
+        <div>
+          <p class="section-label" data-label="cvLabel">Experience</p>
+          <h2 data-field="cvTitle">CV et compétences</h2>
+          <p data-field="cvText">
+            Un parcours Bac+5, des expériences en marketing, une ouverture internationale et une
+            pratique concrète de la communication digitale.
+          </p>
+        </div>
+        <div class="cv-card">
+          <h3 data-label="strengthsTitle">Core strengths</h3>
+          <ul data-repeat="skills"></ul>
+          <a class="button primary full" data-field-href="cvUrl" href="assets/Resume_Joffrey_ACHARD.pdf" download>
+            <span data-label="secondaryCta">Download my resume</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section" data-section="contact">
+        <div>
+          <p class="section-label" data-label="contactLabel">Contact</p>
+          <h2 data-field="contactTitle">On échange ?</h2>
+          <p data-field="contactText">
+            Je suis disponible pour discuter d'une opportunité, d'un entretien ou d'un projet.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" data-field-mail="email" href="mailto:joffrey.achard@email.com" data-label="emailCta">Send me an email</a>
+          <a class="button secondary" data-field-phone="phone" href="tel:+33783716189">
+            <span data-label="phoneCta">Phone</span>&nbsp;: <span data-field="phone">+33 7 83 71 61 89</span>
+          </a>
+          <a class="button secondary" data-field-href="linkedin" href="https://www.linkedin.com/" target="_blank" rel="noreferrer" data-label="linkedinCta">
+            LinkedIn
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> <span data-field="name">Joffrey Achard</span>. <span data-label="footerText">Personal portfolio.</span></p>
+      <a href="#accueil" data-label="topLink">Back to top</a>
+    </footer>
+
+    <div class="project-modal" data-project-modal hidden>
+      <div class="project-modal-backdrop" data-project-modal-close></div>
+      <section class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="projectModalTitle">
+        <button class="modal-close" type="button" data-project-modal-close aria-label="Close project">×</button>
+        <div class="project-modal-content" data-project-modal-content></div>
+      </section>
+    </div>
+
+    <script src="data-v7.js?v=33"></script>
+    <script src="script-v7.js?v=33"></script>
+  </body>
+</html>
