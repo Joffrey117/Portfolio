@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Communication documents cover</title>
+  <desc id="desc">Marketing document system with pages, blocks and editorial layout.</desc>
+  <rect width="1600" height="1000" fill="#f3ecdf"/>
+  <rect x="170" y="130" width="430" height="660" rx="34" fill="#315f72"/>
+  <rect x="640" y="210" width="790" height="500" rx="34" fill="#ffffff"/>
+  <rect x="230" y="220" width="250" height="32" rx="16" fill="#f8f4ea"/>
+  <rect x="230" y="305" width="300" height="24" rx="12" fill="#d9d0c1"/>
+  <rect x="230" y="360" width="250" height="24" rx="12" fill="#d9d0c1"/>
+  <rect x="230" y="545" width="300" height="120" rx="18" fill="#d66f55"/>
+  <rect x="725" y="305" width="520" height="38" rx="19" fill="#0f6b5d"/>
+  <rect x="725" y="390" width="610" height="28" rx="14" fill="#d9d0c1"/>
+  <rect x="725" y="450" width="460" height="28" rx="14" fill="#d9d0c1"/>
+  <rect x="725" y="560" width="260" height="58" rx="29" fill="#d66f55"/>
+  <text x="170" y="875" fill="#18332f" font-family="Arial, sans-serif" font-size="56" font-weight="800">COMMUNICATION DOCUMENTS</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Creative brief cover</title>
+  <desc id="desc">Creative brief visual with storyboard frames and motion design planning.</desc>
+  <rect width="1600" height="1000" fill="#315f72"/>
+  <rect x="160" y="140" width="1280" height="720" rx="44" fill="#f8f4ea"/>
+  <g fill="#ffffff" stroke="#d9d0c1" stroke-width="10">
+    <rect x="240" y="240" width="310" height="210" rx="24"/>
+    <rect x="645" y="240" width="310" height="210" rx="24"/>
+    <rect x="1050" y="240" width="310" height="210" rx="24"/>
+  </g>
+  <path d="M380 300 380 390 462 345Z" fill="#d66f55"/>
+  <circle cx="800" cy="345" r="58" fill="#0f6b5d"/>
+  <rect x="1120" y="300" width="170" height="86" rx="20" fill="#d66f55"/>
+  <rect x="240" y="555" width="760" height="34" rx="17" fill="#18332f"/>
+  <rect x="240" y="635" width="930" height="26" rx="13" fill="#d9d0c1"/>
+  <rect x="240" y="695" width="640" height="26" rx="13" fill="#d9d0c1"/>
+  <text x="240" y="805" fill="#18332f" font-family="Arial, sans-serif" font-size="58" font-weight="800">CREATIVE BRIEF</text>
+</svg>

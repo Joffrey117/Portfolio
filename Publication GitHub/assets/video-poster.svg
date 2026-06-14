@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Apercu de video de presentation</title>
+  <desc id="desc">Visuel d'attente pour la video de presentation du portfolio.</desc>
+  <rect width="1280" height="720" fill="#09473f"/>
+  <path d="M0 520 C 190 430, 300 610, 510 510 S 840 350, 1280 470 L1280 720 L0 720 Z" fill="#0f6b5d"/>
+  <path d="M0 140 C 240 40, 370 220, 590 120 S 960 10, 1280 115 L1280 0 L0 0 Z" fill="#db7057" opacity=".9"/>
+  <circle cx="640" cy="360" r="82" fill="#fffdf8" opacity=".95"/>
+  <path d="M619 316 L619 404 L699 360 Z" fill="#09473f"/>
+  <text x="640" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#fffdf8">Video de presentation</text>
+</svg>

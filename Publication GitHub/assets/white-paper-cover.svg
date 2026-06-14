@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">White paper cover</title>
+  <desc id="desc">White paper cover inspired by music festival sustainability and carbon reduction.</desc>
+  <rect width="1600" height="1000" fill="#18332f"/>
+  <circle cx="1240" cy="230" r="210" fill="#d66f55" opacity="0.88"/>
+  <path d="M0 680 C250 565 420 720 650 610 C875 505 1010 615 1200 540 C1360 475 1475 515 1600 455 L1600 1000 L0 1000Z" fill="#0f6b5d"/>
+  <rect x="190" y="150" width="620" height="700" rx="30" fill="#f8f4ea"/>
+  <rect x="260" y="250" width="370" height="34" rx="17" fill="#315f72"/>
+  <rect x="260" y="340" width="470" height="26" rx="13" fill="#d9d0c1"/>
+  <rect x="260" y="400" width="390" height="26" rx="13" fill="#d9d0c1"/>
+  <rect x="260" y="560" width="250" height="170" rx="18" fill="#6c6f3f"/>
+  <text x="260" y="805" fill="#18332f" font-family="Arial, sans-serif" font-size="58" font-weight="800">WHITE PAPER</text>
+</svg>
